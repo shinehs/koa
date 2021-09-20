@@ -12,7 +12,7 @@ game.getRoomId = async (ctx, next) => {
 }
 
 game.setRoomId = async (ctx, next) => {
-    console.log('~~~', ctx.request.body)
+    // console.log('~~~', ctx.request.body)
     // console.log('~~~111', ctx.request.header.authorization)
     // console.log('~~~111', ctx.request.header['content-type'])
     if (!ctx.request.body.partyId){

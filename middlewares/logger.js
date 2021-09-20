@@ -5,7 +5,8 @@ const path = require('path')
 const log4js = require('log4js')
 const config = require('../config')
 const { log4js_config } = require('../log4js.json')
-// 这个是判断是否有logs目录，没有就新建，用来存放日志
+
+// 这个是判断是否有logs目录，没有就新建，用来存放日志，pm2里面记得加log4js配置pm2
 const logsDir = path.parse(config.logPath).dir
 if (!fs.existsSync(logsDir)) {
   fs.mkdirSync(logsDir)

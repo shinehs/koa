@@ -1,5 +1,6 @@
+// TODO post的有点问题 暂时用3方库了。
 const cors = async (ctx, next) => {
-    console.log('ser cros')
+    // console.log('ser cros')
     // 允许来自所有域名请求
     ctx.set("Access-Control-Allow-Origin", "*");
     // ctx.set("Access-Control-Allow-Origin", "http://localhost:8080"); 

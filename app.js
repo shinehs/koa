@@ -16,7 +16,7 @@ const helmet = require("koa-helmet")
  
 const app = new Koa()
 
-// Helmet safe
+// Helmet safe 这里还没配置，自己找找用法根据需要配置咯，header头大写body大小也没配置自己玩
 app.use(helmet())
 // cors
 app.use(cors(corsHandler));
