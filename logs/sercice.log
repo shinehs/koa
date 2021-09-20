@@ -14,3 +14,12 @@
 [2021-09-20T17:20:57.191] [INFO] [Default] - POST 200 /api/setRoomId 请求参数： {} 响应参数： {"code":400,"data":null,"msg":"参数不正确"} - ::ffff:127.0.0.1 - 13ms
 [2021-09-20T17:21:09.278] [INFO] [Default] - POST 200 /api/setRoomId 请求参数： {} 响应参数： {"code":400,"data":null,"msg":"参数不正确"} - ::ffff:127.0.0.1 - 1ms
 [2021-09-20T17:21:27.290] [INFO] [Default] - POST 200 /api/setRoomId 请求参数： {} 响应参数： {"code":400,"data":null,"msg":"参数不正确"} - ::ffff:127.0.0.1 - 1ms
+[2021-09-20T17:22:14.568] [INFO] [Default] - POST 200 /api/setRoomId 请求参数： {} 响应参数： {"code":400,"data":null,"msg":"参数不正确"} - ::ffff:127.0.0.1 - 5ms
+[2021-09-20T17:22:28.174] [INFO] [Default] - POST 200 /api/setRoomId 请求参数： {"partyId":1,"data":{"id":1}} 响应参数： {"code":200,"msg":"13","data":{"nick":"shine","logo":"www.xx.com/xx.png","city":"guangzhou"}} - ::ffff:127.0.0.1 - 25ms
+[2021-09-20T17:23:58.914] [INFO] [Default] - POST 200 /api/setRoomId 请求参数： {} 响应参数： {"code":400,"data":null,"msg":"参数不正确"} - ::ffff:127.0.0.1 - 8ms
+[2021-09-20T17:26:06.371] [INFO] [Default] - POST 200 /api/setRoomId 请求参数： {} 响应参数： {"code":400,"data":null,"msg":"参数不正确"} - ::ffff:127.0.0.1 - 9ms
+[2021-09-20T17:26:15.497] [INFO] [Default] - POST 200 /api/setRoomId 请求参数： {} 响应参数： {"code":400,"data":null,"msg":"参数不正确"} - ::ffff:127.0.0.1 - 130ms
+[2021-09-20T17:26:43.529] [INFO] [Default] - POST 200 /api/setRoomId 请求参数： {} 响应参数： {"code":400,"data":null,"msg":"参数不正确"} - ::ffff:127.0.0.1 - 10ms
+[2021-09-20T17:29:02.271] [INFO] [Default] - POST 200 /api/setRoomId 请求参数： {} 响应参数： {"code":400,"data":null,"msg":"参数不正确"} - ::ffff:127.0.0.1 - 6ms
+[2021-09-20T17:29:28.896] [INFO] [Default] - POST 200 /api/setRoomId 请求参数： {"partyId":1,"data":{"id":1}} 响应参数： {"code":200,"msg":"13","data":{"nick":"shine","logo":"www.xx.com/xx.png","city":"guangzhou"}} - ::ffff:127.0.0.1 - 37ms
+[2021-09-20T17:29:49.208] [INFO] [Default] - POST 200 /api/setRoomId 请求参数： {"partyId":1,"data":{"id":1}} 响应参数： {"code":200,"msg":"13","data":{"nick":"shine","logo":"www.xx.com/xx.png","city":"guangzhou"}} - ::ffff:127.0.0.1 - 2ms
