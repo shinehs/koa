@@ -3,10 +3,11 @@
 const path = require('path')
 
 module.exports = {
+  name: 'projectName',
   port: '3001',
   secret: 'secret',
   publicDir: path.resolve(__dirname, './public'),
-  logPath: path.resolve(__dirname, './logs/sercice.log'),
+  logPath: path.resolve(__dirname, './logs/server.log'),
   mongoDB: {
     database: 'mall',
     username: 'root',

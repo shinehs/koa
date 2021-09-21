@@ -25,6 +25,7 @@
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.9.0",
+    "koa-art-template": "^1.1.1",
     "koa-bodyparser": "^4.3.0",
     "koa-cors": "^0.0.16",
     "koa-helmet": "^6.1.0",

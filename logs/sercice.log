@@ -1,1 +1,0 @@
-[2021-09-20T17:37:37.127] [INFO] [Default] - GET 200 /api/getRoomId?id=1 请求参数： {} 响应参数： {"code":200,"msg":"13","data":{"nick":"shine","logo":"www.xx.com/xx.png","city":"guangzhou","id":"1"}} - ::ffff:127.0.0.1 - 10ms

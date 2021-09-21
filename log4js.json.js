@@ -16,7 +16,10 @@ const log4js_config = {
             appenders: ['console', 'dateFile'],
             level: 'info'
         }
-    }
+    },
+    maxLogSize: 102400,
+    backups: 20,
+    compress: true
 }
 
 module.exports = {
