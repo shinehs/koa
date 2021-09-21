@@ -8,7 +8,10 @@ const log4js_config = {
         dateFile: {
             type: 'dateFile',
             filename: config.logPath,
-            pattern: '-yyyy-MM-dd'
+            encoding: 'utf-8',
+            pattern: '-yyyy-MM-dd',
+            keepFileExt: true,
+            alwaysIncludePattern: true
         }
     },
     categories: {
